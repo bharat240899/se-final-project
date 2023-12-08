@@ -89,8 +89,6 @@ exports.isAdmin = (req, res, next) => {
     next();
 };
 
-
-
 //Instructor  middleware
 exports.isInstructor = (req, res, next) => {
     
@@ -101,7 +99,6 @@ exports.isInstructor = (req, res, next) => {
     }
     next();
 };
-
 //comitte members middleware
 exports.isComem = (req, res, next) => {
     
